@@ -5,10 +5,10 @@ function SignIn() {
     <form
       action={async () => {
         "use server";
-        await signIn("github");
+        await signIn("google");
       }}
     >
-      <button type="submit">Signin with GitHub</button>
+      <button type="submit">Signin with Google</button>
     </form>
   );
 }
